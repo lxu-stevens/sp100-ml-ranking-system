@@ -1,0 +1,5 @@
+model_name,evaluation_name,benchmark_symbol,tracking_months,portfolio_cumulative_return,benchmark_cumulative_return,excess_cumulative_return,avg_monthly_portfolio_return,avg_monthly_benchmark_return,avg_monthly_excess_return
+L1 Logistic Regression,walk_forward,SPY,48,1.518577818,0.516617272,1.001960546,0.021133809,0.009966715,0.012942598
+Logistic Regression,walk_forward,SPY,48,1.475718451,0.516617272,0.959101179,0.020804467,0.009966715,0.012612957
+Random Forest,walk_forward,SPY,48,1.318165081,0.516617272,0.801547809,0.019201182,0.009966715,0.011149205
+XGBoost,walk_forward,SPY,48,0.867794157,0.516617272,0.351176885,0.014278161,0.009966715,0.005823353

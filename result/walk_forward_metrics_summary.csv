@@ -1,0 +1,37 @@
+model_name,evaluation_name,num_folds,test_months,threshold_strategy,avg_decision_threshold,accuracy,balanced_accuracy,precision,recall,f1,roc_auc,classification_report,top20_avg_return,overall_avg_return,actual_positive_rate,predicted_positive_rate,portfolio_months,avg_monthly_return,monthly_return_std,monthly_win_rate,cumulative_return,annualized_sharpe,best_month_return,worst_month_return,avg_monthly_picks
+Logistic Regression,walk_forward,48,48,target_rate,0.541149924,0.703680599,0.531196109,0.264277716,0.235059761,0.248813917,0.543913178,"              precision    recall  f1-score   support
+
+           0       0.80      0.83      0.82      3805
+           1       0.26      0.24      0.25      1004
+
+    accuracy                           0.70      4809
+   macro avg       0.53      0.53      0.53      4809
+weighted avg       0.69      0.70      0.70      4809
+",0.020804467,0.011794306,0.208775213,0.185693491,48,0.020804467,0.059871197,0.583333333,1.475718451,1.203730564,0.124856754,-0.103367892,21
+L1 Logistic Regression,walk_forward,48,48,target_rate,0.540173437,0.704512373,0.530988529,0.26440678,0.233067729,0.247750132,0.544794541,"              precision    recall  f1-score   support
+
+           0       0.80      0.83      0.82      3805
+           1       0.26      0.23      0.25      1004
+
+    accuracy                           0.70      4809
+   macro avg       0.53      0.53      0.53      4809
+weighted avg       0.69      0.70      0.70      4809
+",0.021133809,0.011794306,0.208775213,0.184029944,48,0.021133809,0.05931704,0.604166667,1.518577818,1.234209649,0.124856754,-0.103367892,21
+Random Forest,walk_forward,48,48,target_rate,0.505944252,0.697858183,0.533015769,0.263932702,0.25,0.256777494,0.556051746,"              precision    recall  f1-score   support
+
+           0       0.80      0.82      0.81      3805
+           1       0.26      0.25      0.26      1004
+
+    accuracy                           0.70      4809
+   macro avg       0.53      0.53      0.53      4809
+weighted avg       0.69      0.70      0.69      4809
+",0.019201182,0.011794306,0.208775213,0.197754211,48,0.019201182,0.055921014,0.625,1.318165081,1.189442748,0.115168085,-0.111939028,21
+XGBoost,walk_forward,48,48,target_rate,0.566047875,0.720108131,0.520680877,0.255714286,0.178286853,0.210093897,0.526506458,"              precision    recall  f1-score   support
+
+           0       0.80      0.86      0.83      3805
+           1       0.26      0.18      0.21      1004
+
+    accuracy                           0.72      4809
+   macro avg       0.53      0.52      0.52      4809
+weighted avg       0.69      0.72      0.70      4809
+",0.014278161,0.011794306,0.208775213,0.145560408,48,0.014278161,0.048914624,0.6875,0.867794157,1.011169975,0.084151084,-0.114715436,21
