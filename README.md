@@ -91,6 +91,7 @@ This module defines the standard models and the common model utilities.
 ### Models
 
 - Logistic Regression
+- L1 Logistic Regression
 - Random Forest
 - XGBoost
 
