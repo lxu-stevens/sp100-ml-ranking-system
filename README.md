@@ -318,7 +318,7 @@ Based on the imports used in the codebase, the project depends on:
 - `matplotlib`
 - `seaborn`
 - `streamlit`
-- `xgboost` optional
+- `xgboost`
 
 ## Notes About Current Behavior
 
